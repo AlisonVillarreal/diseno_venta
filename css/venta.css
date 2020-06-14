@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    overflow: hidden;
+    font-weight: 300;
+  
+}
+a:hover{
+
+    text-decoration: none;
+}
+
+#sidebar-container{
+
+min-height: 100vh;
+
+}
+#sidebar-container .logo{
+
+    padding: .875rem 1.25rem;
+}
+#sidebar-container .menu{
+
+    width: 18rem;
+}
+#content{
+
+    overflow: auto;
+    height: 100vh;
+    
+    
+}
+
+#caja_grande{
+
+
+    width: 1080px;
+    height: 550px;
+    background-color: white;
+
+}
+
+#caja_1{
+
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 700px;
+    height: 200px;
+    background-color: white;
+    
+    
+}
+
+#caja_2{
+
+    margin-left: 715px;
+    width: 345px;
+    height: 188px;
+    background-color: white;
+    margin-top: -160px;
+    margin-bottom: 20px;
+    
+    
+    
+}
+#caja_3{
+
+    margin-left: 400px;
+   margin-top: -10px;
+    width: 660px;
+    height: 50px;
+    background-color: white;
+    
+    
+    
+}
+#caja_4{
+
+    margin-top: 10px;
+     width: 1060px;
+     height: 160px;
+     background-color: white;
+     
+     
+     
+ }
+ .color{
+
+background-color: lightgreen;
+
+ }
+ #resultado{
+
+    background-color: white;
+    width: 145px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 916px;
+}
+
+.button{
+
+    margin: 20px;
+    padding: 10px;
+}

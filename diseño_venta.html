@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alison</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/venta.css">
+
+</head>
+<body>
+    <div class="d-flex">
+        <div id="sidebar-container" class="bg-primary" >
+            <div class="logo">
+                <h1 class="text-light "> SiSFAC <i class = "icon ion-md-menu" ></i></h1>    
+            </div>
+            <div class="menu">
+                <a href="#" class="d-block text-light p-3"><i class = "icon ion-md-cash mr-2 lead" ></i>Ventas</a>
+                <a href="#" class="d-block text-light p-3"><i class = "icon ion-md-tv mr-2 lead" ></i>Inicio</a>
+                <a href="#" class="d-block text-light p-3"><i class = "icon ion-md-today mr-2 lead" lead  lead></i>Mantenimiento</a>
+                <a href="#" class="d-block text-light p-3"><i class = "icon ion-md-create mr-2 lead"></i>Compras</a>
+                <a href="#" class="d-block text-light p-3"><i class = "icon ion-md-stats mr-2 lead" ></i>Reportes</a>
+                <a href="#" class="d-block text-light p-3"><i class = "icon ion-md-bookmarks mr-2 lead" ></i>Backup</a>
+                <a href="#" class="d-block text-light p-3"><i class = "icon ion-md-construct mr-2 lead"></i>Configuration</a>
+                <a href="#" class="d-block text-light p-3"><i class = "icon ion-md-power mr-2 lead"></i>Cerrar Sesion</a>
+            </div>
+        </div>
+
+        <div >
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                 
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle lead "  href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Alison Villarreal <i class = "icon ion-md-person"></i>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Mi perfil</a>
+                        <a class="dropdown-item" href="#">Suscripción</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Cerrar Sesion</a>
+                      </div>
+                    </li>
+                   
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0" >
+                    <a class="nav-item dropdown" href="">Cerra sesion<i class = "icon ion-md-power"></i></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-haspopup="true"  aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                  </form>
+                </div>
+              
+              </nav>
+              <div id="content">
+                <selection>
+                    <div class="container">
+                        <div class="col-lg-9">
+                            <h4>Nueva compra</h4>
+                        </div>
+                        
+                        
+                    </div>
+                   </selection>
+
+
+               <div id="caja_grande">
+
+                <div id="caja_1">
+                
+                    <div class="container form-row nb-3" >
+                    <div class="form-group col-nd-6">
+                        <label class="font-weight-bold">Fechas</label>
+                        <input type="date" class="form-control" aria-placeholder="Fecha"></input>
+                    </div>
+                    <div class="form-group col-nd-6">
+                        <label class="font-weight-bold ">Proveedor</label>
+                        <input type="text" class="form-control" aria-placeholder="Fecha"></input>
+                    </div>
+                    <div class="form-group col-nd-6">
+                        <label class="font-weight-bold ">Codigo de barra</label>
+                        <input type="text" class="form-control" aria-placeholder="Fecha"></input>
+                    </div>
+                    <hr>
+                    <div class="form-group col-nd-6">
+                        <label class="font-weight-bold">Descripcion</label>
+                        <input type="text" class="form-control" aria-placeholder="Fecha"></input>
+                    </div>
+                    <div class="form-group col-nd-6">
+                        <label class="font-weight-bold ">Presentacion</label>
+                        <input type="text" class="form-control" aria-placeholder="Fecha"></input>
+                    </div>
+                    <div class="form-group col-nd-6">
+                        <label class="font-weight-bold ">Precio</label>
+                        <input type="text" class="form-control" aria-placeholder="Fecha"></input>
+                    </div>
+                
+                      </div>
+
+                      <div id="caja_2">
+                        <table class="table" >
+                            <thead class="color"  >
+                                <tr>
+                                    <th>Tipo Documento</th>
+                                    <th></th>
+                      
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                  <td>
+                                    <select name="order" id="order" class="form-control">
+                                    <option value="important dropdown-item " >FACTURA</option>
+                                    <option value="minor_price">OPCION 1</option>
+                                    <option value="mayor_price">OPCION 2</option>
+                                    <option value="mayor_price">OPCION 3</option>
+                                 
+                                </select></td>
+
+                                </tr>
+                               <tr>
+                                <td> <input type="text" class="form-control" ></input></td>
+                                <td> <input type="text" class="form-control" ></input></td>
+                               
+                              </tr>
+                             
+               
+                            </tbody>
+                        </table>
+
+                      </div>
+                      <div id="caja_3" >
+
+                        <button  type="button" class="btn btn-primary"><i class = "icon ion-md-refresh"></i> Nuevo</button>
+                        <button type="button" class="btn btn-success"><i class = "icon ion-md-cart"></i> Agregar</button>
+                        <button type="button" class="btn btn-dark"><i class = "icon ion-md-save"></i> Registrar</button>
+
+                      </div>
+                      <div id="caja_4">
+
+                        <table class="table">
+                            <thead class="color">
+                                <tr>
+                                    <th>!item</th>
+                                    <th>Descripción</th>
+                                    <th>Presentación</th>
+                                    <th>Cantidad</th>
+                                    <th>Precio</th>
+                                    <th>Importe</th>
+                                    <th>Eliminar</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                               <tr>
+                                   <td>1</td>
+                                   <td>Gaseosa Inka Kola</td>
+                                   <td>LT</td>
+                                   <td>40</td>
+                                   <td>1.20</td>
+                                   <td>48.00</td>
+                                   <td></td>
+                               </tr>
+                               <tr>
+                                   <td>2</td>
+                                   <td>Agua mineral San Mateo</td>
+                                   <td>LT</td>
+                                   <td>50</td>
+                                   <td>1.20</td>
+                                   <td>60.00</td>
+                                   <td></td>
+                               </tr>
+               
+                            </tbody>
+                        </table>
+
+                        
+                      </div>
+                 
+                      <div id="resultado">
+                        <table class="table_2">
+                            <thead class="color">
+                                <tr>
+                                    <th>TOTAL: </th>
+                                    <th>127.44</th>
+                                  
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>SUBTOTAL : </td>
+                                    <td>108.00</td>
+                                    
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>IGV : </td>
+                                    <td>19.44</td>
+                                </tr>
+                            </tbody>
+                            
+                    </div>
+                </div>
+
+            </div>
+    </div>
+
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>
